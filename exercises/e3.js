@@ -56,7 +56,7 @@ const getValueWithConditionTwo = (num1, num2) => {
   return sum1 + sum2;
 };
 
-const getValueWithConditionThree = (num1, num2) => {
+const getValueWithConditionThree = function (num1, num2) {
   if (num1 === 40 && num2 === 40) {
     return num1 + num2;
   }
